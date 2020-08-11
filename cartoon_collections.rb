@@ -29,7 +29,7 @@ def find_valid_calls(planeteer_calls)
   
   planeteer_calls.cycle(1) do |planetvalue| 
     
-    if valid_calls.detect{|value| value == planetvalue} 
+    if valid_calls.detect{|value| value == planetvalue}  
       
       return planetvalue
       
